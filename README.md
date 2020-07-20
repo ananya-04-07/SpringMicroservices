@@ -81,7 +81,52 @@ Item 51: Design method Signature Carefully
       2) with the help of helper class to hold group of parameter.
       3) Builder pattern.
       
+      
+================================================================================
+
+Date ---> 20-07-2020
+ 
 Item 52 : Use overloading judiciously
-      half of the item is completed
+* in this itemi have learnt about why overriding is much better than overloading.
+* overloading method is static where as overridding methods aredynamic.
+* it is recommended that never use two overloading method having same number of parameter because it cause confusion to programmer.
+
+
+Item 53 : Use vararg judiciously
+* whenever we use varargs in performance critical situation envocation of a varargs method causes an array allocation and initialization.
+* in this i have learn why we should avoid use of varargs.
+
+
+item 54 : Return empty Collection and array not null.
+* in this i have learnt why we shpuld not return null because every time programmer need to write extra code to check for null value.
+  but sometime its necessary to return null because the memory allocated by empty collection is costly.
+  
+item 55 : Return Options judiciously
+* Optional is immutable collection that can hold at most one element.
+* Optional does not implement Colletion but its can be in principal of collection.
+* Optional are less prone to error.
+* learn about the disadvantages of Optional<T>.
+
+item 56 : Write Doc Comment for all exposed API element.
+
+item 57 : Minimize scope of local variable.
+* by minimizing the scope of local variable we increase the readability and maintainability of our code.
+* local variable should declare just above where it is first used.
+* learn when and why we need to write variable in try catch block.
+* learn why we should use traditional for loop over while.
+* the ways how we can avoid the use of local variable
+
+item 58: prefer for-each loops to traditional for loops
+
+item 59: Know and use the libraries
+
+item 60: Avoid float and double if exact answers are required
+
+item 61: Prefer primitive types to boxed primitives
+
+item 62: Avoid strings where other types are more appropriate
+
+item 63 : Beware the performance of string concatenation
+
 
 
