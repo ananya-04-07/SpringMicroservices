@@ -129,4 +129,20 @@ item 62: Avoid strings where other types are more appropriate
 item 63 : Beware the performance of string concatenation
 
 
+================================================================================
+
+Date ---> 21-07-2020
+
+* Gone through video lecture of Elastic search for better understanding of Elastic search meeting which was held today
+* Gone through few video lecture of Micro services.
+
+Effective Java
+
+item 64: Refer to objects by their interfaces
+* why we should refer object not from the implementation class instead we should use inteface to refer the object.
+
+item 65 : Prefer interfaces to reflection.
+* in this i  have learn about Reflection API.
+* why we should use interface over reflection.
+
 
